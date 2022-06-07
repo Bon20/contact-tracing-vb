@@ -51,4 +51,43 @@ Public Class Form1
 
         End Using
     End Sub
+
+    Private Sub txtbxCnumber_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxCnumber.KeyPress
+        If Not Char.IsNumber(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) Then
+            e.Handled = True
+            MessageBox.Show("This field is accepting numbers only!")
+        ElseIf txtbxCnumber.Text.Length > 11 Then
+            If e.KeyChar <> ControlChars.Back Then
+                e.Handled = True
+                MessageBox.Show("Contact number should not be more than 11 numbers!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        End If
+    End Sub
+
+    Private Sub txtbxAge_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxAge.KeyPress
+        If Not Char.IsNumber(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) Then
+            e.Handled = True
+            MessageBox.Show("This field is accepting numbers only!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        ElseIf txtbxAge.Text.Length > 3 Then
+            If e.KeyChar <> ControlChars.Back Then
+                e.Handled = True
+                MessageBox.Show("Age should not be more than 3 numbers!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+        End If
+    End Sub
+
+    Private Sub txtbxFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxFname.KeyPress
+        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+            e.Handled = True
+            MessageBox.Show("This field is accepting letters only!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+    End Sub
+
+    Private Sub txtbxLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxLname.KeyPress
+        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+            e.Handled = True
+            MessageBox.Show("This field is accepting letters only!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+
+    End Sub
 End Class
