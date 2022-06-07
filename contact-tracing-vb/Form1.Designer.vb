@@ -106,60 +106,66 @@ Partial Class Form1
         'lblFname
         '
         Me.lblFname.AutoSize = True
+        Me.lblFname.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblFname.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblFname.Location = New System.Drawing.Point(59, 61)
         Me.lblFname.Name = "lblFname"
-        Me.lblFname.Size = New System.Drawing.Size(94, 20)
+        Me.lblFname.Size = New System.Drawing.Size(102, 20)
         Me.lblFname.TabIndex = 3
         Me.lblFname.Text = "FIRST NAME:"
         '
         'lblLname
         '
         Me.lblLname.AutoSize = True
+        Me.lblLname.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblLname.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblLname.Location = New System.Drawing.Point(62, 94)
         Me.lblLname.Name = "lblLname"
-        Me.lblLname.Size = New System.Drawing.Size(91, 20)
+        Me.lblLname.Size = New System.Drawing.Size(98, 20)
         Me.lblLname.TabIndex = 3
         Me.lblLname.Text = "LAST NAME:"
         '
         'lblCnumber
         '
         Me.lblCnumber.AutoSize = True
+        Me.lblCnumber.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblCnumber.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblCnumber.Location = New System.Drawing.Point(12, 124)
         Me.lblCnumber.Name = "lblCnumber"
-        Me.lblCnumber.Size = New System.Drawing.Size(141, 20)
+        Me.lblCnumber.Size = New System.Drawing.Size(151, 20)
         Me.lblCnumber.TabIndex = 3
         Me.lblCnumber.Text = "CONTACT NUMBER:"
         '
         'lblAge
         '
         Me.lblAge.AutoSize = True
+        Me.lblAge.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblAge.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblAge.Location = New System.Drawing.Point(109, 160)
         Me.lblAge.Name = "lblAge"
-        Me.lblAge.Size = New System.Drawing.Size(40, 20)
+        Me.lblAge.Size = New System.Drawing.Size(43, 20)
         Me.lblAge.TabIndex = 3
         Me.lblAge.Text = "AGE:"
         '
         'lblGender
         '
         Me.lblGender.AutoSize = True
+        Me.lblGender.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblGender.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblGender.Location = New System.Drawing.Point(80, 190)
         Me.lblGender.Name = "lblGender"
-        Me.lblGender.Size = New System.Drawing.Size(69, 20)
+        Me.lblGender.Size = New System.Drawing.Size(73, 20)
         Me.lblGender.TabIndex = 3
         Me.lblGender.Text = "GENDER:"
         '
         'lblAddress
         '
         Me.lblAddress.AutoSize = True
+        Me.lblAddress.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblAddress.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblAddress.Location = New System.Drawing.Point(72, 227)
         Me.lblAddress.Name = "lblAddress"
-        Me.lblAddress.Size = New System.Drawing.Size(77, 20)
+        Me.lblAddress.Size = New System.Drawing.Size(80, 20)
         Me.lblAddress.TabIndex = 3
         Me.lblAddress.Text = "ADDRESS:"
         '
@@ -167,23 +173,24 @@ Partial Class Form1
         '
         Me.gbxQuestion1.Controls.Add(Me.radbuttonNo)
         Me.gbxQuestion1.Controls.Add(Me.radbuttonYes)
+        Me.gbxQuestion1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.gbxQuestion1.ForeColor = System.Drawing.Color.MidnightBlue
         Me.gbxQuestion1.Location = New System.Drawing.Point(47, 331)
         Me.gbxQuestion1.Name = "gbxQuestion1"
         Me.gbxQuestion1.Size = New System.Drawing.Size(279, 89)
         Me.gbxQuestion1.TabIndex = 4
         Me.gbxQuestion1.TabStop = False
-        Me.gbxQuestion1.Text = "Have you had encounter with COVID-19 positive? :"
+        Me.gbxQuestion1.Text = "Have you had encounter with COVID-19 positive :"
         '
         'radbuttonNo
         '
         Me.radbuttonNo.AutoSize = True
         Me.radbuttonNo.Location = New System.Drawing.Point(147, 42)
         Me.radbuttonNo.Name = "radbuttonNo"
-        Me.radbuttonNo.Size = New System.Drawing.Size(50, 24)
+        Me.radbuttonNo.Size = New System.Drawing.Size(53, 24)
         Me.radbuttonNo.TabIndex = 0
         Me.radbuttonNo.TabStop = True
-        Me.radbuttonNo.Text = "No"
+        Me.radbuttonNo.Text = "NO"
         Me.radbuttonNo.UseVisualStyleBackColor = True
         '
         'radbuttonYes
@@ -191,19 +198,20 @@ Partial Class Form1
         Me.radbuttonYes.AutoSize = True
         Me.radbuttonYes.Location = New System.Drawing.Point(62, 42)
         Me.radbuttonYes.Name = "radbuttonYes"
-        Me.radbuttonYes.Size = New System.Drawing.Size(51, 24)
+        Me.radbuttonYes.Size = New System.Drawing.Size(55, 24)
         Me.radbuttonYes.TabIndex = 0
         Me.radbuttonYes.TabStop = True
-        Me.radbuttonYes.Text = "Yes"
+        Me.radbuttonYes.Text = "YES"
         Me.radbuttonYes.UseVisualStyleBackColor = True
         '
         'lblQuestion2
         '
         Me.lblQuestion2.AutoSize = True
+        Me.lblQuestion2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblQuestion2.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.lblQuestion2.Location = New System.Drawing.Point(360, 56)
+        Me.lblQuestion2.Location = New System.Drawing.Point(347, 58)
         Me.lblQuestion2.Name = "lblQuestion2"
-        Me.lblQuestion2.Size = New System.Drawing.Size(416, 20)
+        Me.lblQuestion2.Size = New System.Drawing.Size(441, 20)
         Me.lblQuestion2.TabIndex = 5
         Me.lblQuestion2.Text = "Have you been sick of any of the following in the last 14 days:"
         '
@@ -270,60 +278,66 @@ Partial Class Form1
         'lblFever
         '
         Me.lblFever.AutoSize = True
+        Me.lblFever.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblFever.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblFever.Location = New System.Drawing.Point(500, 106)
         Me.lblFever.Name = "lblFever"
-        Me.lblFever.Size = New System.Drawing.Size(53, 20)
+        Me.lblFever.Size = New System.Drawing.Size(57, 20)
         Me.lblFever.TabIndex = 7
         Me.lblFever.Text = "FEVER:"
         '
         'lblCough
         '
         Me.lblCough.AutoSize = True
+        Me.lblCough.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblCough.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblCough.Location = New System.Drawing.Point(490, 140)
         Me.lblCough.Name = "lblCough"
-        Me.lblCough.Size = New System.Drawing.Size(63, 20)
+        Me.lblCough.Size = New System.Drawing.Size(66, 20)
         Me.lblCough.TabIndex = 7
         Me.lblCough.Text = "COUGH:"
         '
         'lblColds
         '
         Me.lblColds.AutoSize = True
+        Me.lblColds.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblColds.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblColds.Location = New System.Drawing.Point(495, 179)
         Me.lblColds.Name = "lblColds"
-        Me.lblColds.Size = New System.Drawing.Size(58, 20)
+        Me.lblColds.Size = New System.Drawing.Size(60, 20)
         Me.lblColds.TabIndex = 7
         Me.lblColds.Text = "COLDS:"
         '
         'lblSorethroat
         '
         Me.lblSorethroat.AutoSize = True
+        Me.lblSorethroat.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblSorethroat.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblSorethroat.Location = New System.Drawing.Point(445, 213)
         Me.lblSorethroat.Name = "lblSorethroat"
-        Me.lblSorethroat.Size = New System.Drawing.Size(108, 20)
+        Me.lblSorethroat.Size = New System.Drawing.Size(114, 20)
         Me.lblSorethroat.TabIndex = 7
         Me.lblSorethroat.Text = "SORE THROAT:"
         '
         'lblDiffInBreath
         '
         Me.lblDiffInBreath.AutoSize = True
+        Me.lblDiffInBreath.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblDiffInBreath.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lblDiffInBreath.Location = New System.Drawing.Point(365, 242)
         Me.lblDiffInBreath.Name = "lblDiffInBreath"
-        Me.lblDiffInBreath.Size = New System.Drawing.Size(188, 20)
+        Me.lblDiffInBreath.Size = New System.Drawing.Size(206, 20)
         Me.lblDiffInBreath.TabIndex = 7
         Me.lblDiffInBreath.Text = "DIFFICULTY IN BREATHING:"
         '
         'lbldiarrhea
         '
         Me.lbldiarrhea.AutoSize = True
+        Me.lbldiarrhea.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lbldiarrhea.ForeColor = System.Drawing.Color.MidnightBlue
         Me.lbldiarrhea.Location = New System.Drawing.Point(469, 276)
         Me.lbldiarrhea.Name = "lbldiarrhea"
-        Me.lbldiarrhea.Size = New System.Drawing.Size(84, 20)
+        Me.lbldiarrhea.Size = New System.Drawing.Size(90, 20)
         Me.lbldiarrhea.TabIndex = 7
         Me.lbldiarrhea.Text = "DIARRHEA:"
         '
@@ -341,11 +355,11 @@ Partial Class Form1
         'lblSubhead
         '
         Me.lblSubhead.AutoSize = True
-        Me.lblSubhead.Font = New System.Drawing.Font("Matura MT Script Capitals", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
+        Me.lblSubhead.Font = New System.Drawing.Font("Matura MT Script Capitals", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lblSubhead.ForeColor = System.Drawing.Color.LightSeaGreen
         Me.lblSubhead.Location = New System.Drawing.Point(338, 19)
         Me.lblSubhead.Name = "lblSubhead"
-        Me.lblSubhead.Size = New System.Drawing.Size(215, 26)
+        Me.lblSubhead.Size = New System.Drawing.Size(234, 26)
         Me.lblSubhead.TabIndex = 9
         Me.lblSubhead.Text = "Contact Tracing App"
         '
@@ -396,7 +410,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtbxLname)
         Me.Controls.Add(Me.txtbxFname)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Contact Tracing App"
         Me.gbxQuestion1.ResumeLayout(False)
         Me.gbxQuestion1.PerformLayout()
         Me.ResumeLayout(False)

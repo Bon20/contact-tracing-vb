@@ -16,3 +16,4 @@ C:\Users\bmder\source\repos\contact-tracing-vb\contact-tracing-vb\obj\Debug\net5
 C:\Users\bmder\source\repos\contact-tracing-vb\contact-tracing-vb\obj\Debug\net5.0-windows\ref\contact-tracing-vb.dll
 C:\Users\bmder\source\repos\contact-tracing-vb\contact-tracing-vb\obj\Debug\net5.0-windows\contact-tracing-vb.pdb
 C:\Users\bmder\source\repos\contact-tracing-vb\contact-tracing-vb\obj\Debug\net5.0-windows\contact-tracing-vb.genruntimeconfig.cache
+C:\Users\bmder\source\repos\contact-tracing-vb\contact-tracing-vb\obj\Debug\net5.0-windows\contact_tracing_vb.Resources.resources
