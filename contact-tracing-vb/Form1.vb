@@ -5,6 +5,10 @@ Public Class Form1
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         Using sw As StreamWriter = New StreamWriter(Application.StartupPath & "" + txtbxFname.Text & " " + txtbxLname.Text & ".txt")
             MessageBox.Show("Submitted!")
+            Dim datenow = DateTime.Now
+
+            sw.WriteLine(datenow.ToLongDateString())
+            sw.WriteLine(datenow.ToShortTimeString())
 
             sw.WriteLine(lblFname.Text & " " + txtbxFname.Text)
             sw.WriteLine(lblLname.Text & " " + txtbxLname.Text)
