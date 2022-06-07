@@ -20,6 +20,13 @@ Public Class Form1
             sw.WriteLine(lblDiffInBreath.Text & " " + cboxDiffInBreath.Text)
             sw.WriteLine(lbldiarrhea.Text & " " + cBoxDiarrhea.Text)
 
+            If radbuttonYes.Checked = True Then
+                sw.WriteLine(gbxQuestion1.Text + radbuttonYes.Text)
+            Else
+                sw.WriteLine(vbCrLf & gbxQuestion1.Text & " " + radbuttonNo.Text)
+            End If
+
+            sw.Close()
 
         End Using
     End Sub
