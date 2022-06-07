@@ -6,6 +6,19 @@ Public Class Form1
         Using sw As StreamWriter = New StreamWriter(Application.StartupPath & "" + txtbxFname.Text & " " + txtbxLname.Text & ".txt")
             MessageBox.Show("Submitted!")
 
+            sw.WriteLine(lblFname.Text & " " + txtbxFname.Text)
+            sw.WriteLine(lblLname.Text & " " + txtbxLname.Text)
+            sw.WriteLine(lblCnumber.Text & " " + txtbxCnumber.Text)
+            sw.WriteLine(lblAge.Text & " " + txtbxAge.Text)
+            sw.WriteLine(lblGender.Text & " " + cbxGender.Text)
+            sw.WriteLine(lblAddress.Text & " " + txtbxAddress.Text)
+            sw.WriteLine(lblQuestion2.Text)
+            sw.WriteLine(lblFever.Text & " " + cboxFever.Text)
+            sw.WriteLine(lblCough.Text & " " + cboxCough.Text)
+            sw.WriteLine(lblColds.Text & " " + cboxColds.Text)
+            sw.WriteLine(lblSorethroat.Text & " " + cboxSorethroat.Text)
+            sw.WriteLine(lblDiffInBreath.Text & " " + cboxDiffInBreath.Text)
+            sw.WriteLine(lbldiarrhea.Text & " " + cBoxDiarrhea.Text)
 
 
         End Using
