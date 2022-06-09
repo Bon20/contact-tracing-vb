@@ -69,21 +69,21 @@ Partial Class Form1
         Me.txtbxLname.Location = New System.Drawing.Point(162, 91)
         Me.txtbxLname.Name = "txtbxLname"
         Me.txtbxLname.Size = New System.Drawing.Size(164, 27)
-        Me.txtbxLname.TabIndex = 0
+        Me.txtbxLname.TabIndex = 1
         '
         'txtbxCnumber
         '
         Me.txtbxCnumber.Location = New System.Drawing.Point(162, 124)
         Me.txtbxCnumber.Name = "txtbxCnumber"
         Me.txtbxCnumber.Size = New System.Drawing.Size(164, 27)
-        Me.txtbxCnumber.TabIndex = 0
+        Me.txtbxCnumber.TabIndex = 2
         '
         'txtbxAge
         '
         Me.txtbxAge.Location = New System.Drawing.Point(162, 157)
         Me.txtbxAge.Name = "txtbxAge"
         Me.txtbxAge.Size = New System.Drawing.Size(48, 27)
-        Me.txtbxAge.TabIndex = 0
+        Me.txtbxAge.TabIndex = 3
         '
         'cbxGender
         '
@@ -93,7 +93,7 @@ Partial Class Form1
         Me.cbxGender.Location = New System.Drawing.Point(161, 190)
         Me.cbxGender.Name = "cbxGender"
         Me.cbxGender.Size = New System.Drawing.Size(164, 28)
-        Me.cbxGender.TabIndex = 1
+        Me.cbxGender.TabIndex = 4
         '
         'txtbxAddress
         '
@@ -101,7 +101,7 @@ Partial Class Form1
         Me.txtbxAddress.Multiline = True
         Me.txtbxAddress.Name = "txtbxAddress"
         Me.txtbxAddress.Size = New System.Drawing.Size(159, 82)
-        Me.txtbxAddress.TabIndex = 2
+        Me.txtbxAddress.TabIndex = 5
         '
         'lblFname
         '
@@ -178,7 +178,7 @@ Partial Class Form1
         Me.gbxQuestion1.Location = New System.Drawing.Point(47, 331)
         Me.gbxQuestion1.Name = "gbxQuestion1"
         Me.gbxQuestion1.Size = New System.Drawing.Size(279, 89)
-        Me.gbxQuestion1.TabIndex = 4
+        Me.gbxQuestion1.TabIndex = 15
         Me.gbxQuestion1.TabStop = False
         Me.gbxQuestion1.Text = "Have you had encounter with COVID-19 positive :"
         '
@@ -188,7 +188,7 @@ Partial Class Form1
         Me.radbuttonNo.Location = New System.Drawing.Point(147, 42)
         Me.radbuttonNo.Name = "radbuttonNo"
         Me.radbuttonNo.Size = New System.Drawing.Size(53, 24)
-        Me.radbuttonNo.TabIndex = 0
+        Me.radbuttonNo.TabIndex = 13
         Me.radbuttonNo.TabStop = True
         Me.radbuttonNo.Text = "NO"
         Me.radbuttonNo.UseVisualStyleBackColor = True
@@ -199,7 +199,7 @@ Partial Class Form1
         Me.radbuttonYes.Location = New System.Drawing.Point(62, 42)
         Me.radbuttonYes.Name = "radbuttonYes"
         Me.radbuttonYes.Size = New System.Drawing.Size(55, 24)
-        Me.radbuttonYes.TabIndex = 0
+        Me.radbuttonYes.TabIndex = 12
         Me.radbuttonYes.TabStop = True
         Me.radbuttonYes.Text = "YES"
         Me.radbuttonYes.UseVisualStyleBackColor = True
@@ -233,7 +233,7 @@ Partial Class Form1
         Me.cboxCough.Location = New System.Drawing.Point(567, 137)
         Me.cboxCough.Name = "cboxCough"
         Me.cboxCough.Size = New System.Drawing.Size(130, 28)
-        Me.cboxCough.TabIndex = 6
+        Me.cboxCough.TabIndex = 7
         '
         'cboxColds
         '
@@ -243,7 +243,7 @@ Partial Class Form1
         Me.cboxColds.Location = New System.Drawing.Point(567, 171)
         Me.cboxColds.Name = "cboxColds"
         Me.cboxColds.Size = New System.Drawing.Size(130, 28)
-        Me.cboxColds.TabIndex = 6
+        Me.cboxColds.TabIndex = 8
         '
         'cboxSorethroat
         '
@@ -253,7 +253,7 @@ Partial Class Form1
         Me.cboxSorethroat.Location = New System.Drawing.Point(567, 205)
         Me.cboxSorethroat.Name = "cboxSorethroat"
         Me.cboxSorethroat.Size = New System.Drawing.Size(130, 28)
-        Me.cboxSorethroat.TabIndex = 6
+        Me.cboxSorethroat.TabIndex = 9
         '
         'cboxDiffInBreath
         '
@@ -263,7 +263,7 @@ Partial Class Form1
         Me.cboxDiffInBreath.Location = New System.Drawing.Point(567, 239)
         Me.cboxDiffInBreath.Name = "cboxDiffInBreath"
         Me.cboxDiffInBreath.Size = New System.Drawing.Size(130, 28)
-        Me.cboxDiffInBreath.TabIndex = 6
+        Me.cboxDiffInBreath.TabIndex = 10
         '
         'cBoxDiarrhea
         '
@@ -273,7 +273,7 @@ Partial Class Form1
         Me.cBoxDiarrhea.Location = New System.Drawing.Point(567, 273)
         Me.cBoxDiarrhea.Name = "cBoxDiarrhea"
         Me.cBoxDiarrhea.Size = New System.Drawing.Size(130, 28)
-        Me.cBoxDiarrhea.TabIndex = 6
+        Me.cBoxDiarrhea.TabIndex = 11
         '
         'lblFever
         '
@@ -335,7 +335,7 @@ Partial Class Form1
         Me.lbldiarrhea.AutoSize = True
         Me.lbldiarrhea.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.lbldiarrhea.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.lbldiarrhea.Location = New System.Drawing.Point(469, 276)
+        Me.lbldiarrhea.Location = New System.Drawing.Point(469, 273)
         Me.lbldiarrhea.Name = "lbldiarrhea"
         Me.lbldiarrhea.Size = New System.Drawing.Size(90, 20)
         Me.lbldiarrhea.TabIndex = 7
@@ -370,7 +370,7 @@ Partial Class Form1
         Me.btnSubmit.Location = New System.Drawing.Point(567, 349)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(125, 55)
-        Me.btnSubmit.TabIndex = 10
+        Me.btnSubmit.TabIndex = 14
         Me.btnSubmit.Text = "SUBMIT"
         Me.btnSubmit.UseVisualStyleBackColor = False
         '
