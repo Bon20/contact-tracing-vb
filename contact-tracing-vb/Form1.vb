@@ -103,4 +103,8 @@ Public Class Form1
 
         End If
     End Sub
+
+    Private Sub btnClearDisplay_Click(sender As Object, e As EventArgs) Handles btnClearDisplay.Click
+        RboxDisplay.Clear()
+    End Sub
 End Class
