@@ -53,6 +53,9 @@ Partial Class Form1
         Me.lblAppname = New System.Windows.Forms.Label()
         Me.lblSubhead = New System.Windows.Forms.Label()
         Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.RboxDisplay = New System.Windows.Forms.RichTextBox()
+        Me.btnViewDisplay = New System.Windows.Forms.Button()
+        Me.btnClearDisplay = New System.Windows.Forms.Button()
         Me.gbxQuestion1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -374,12 +377,45 @@ Partial Class Form1
         Me.btnSubmit.Text = "SUBMIT"
         Me.btnSubmit.UseVisualStyleBackColor = False
         '
+        'RboxDisplay
+        '
+        Me.RboxDisplay.Location = New System.Drawing.Point(816, 91)
+        Me.RboxDisplay.Name = "RboxDisplay"
+        Me.RboxDisplay.Size = New System.Drawing.Size(344, 274)
+        Me.RboxDisplay.TabIndex = 16
+        Me.RboxDisplay.Text = ""
+        '
+        'btnViewDisplay
+        '
+        Me.btnViewDisplay.BackColor = System.Drawing.Color.Navy
+        Me.btnViewDisplay.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnViewDisplay.Location = New System.Drawing.Point(837, 399)
+        Me.btnViewDisplay.Name = "btnViewDisplay"
+        Me.btnViewDisplay.Size = New System.Drawing.Size(137, 49)
+        Me.btnViewDisplay.TabIndex = 17
+        Me.btnViewDisplay.Text = "VIEW"
+        Me.btnViewDisplay.UseVisualStyleBackColor = False
+        '
+        'btnClearDisplay
+        '
+        Me.btnClearDisplay.BackColor = System.Drawing.Color.Navy
+        Me.btnClearDisplay.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnClearDisplay.Location = New System.Drawing.Point(1009, 399)
+        Me.btnClearDisplay.Name = "btnClearDisplay"
+        Me.btnClearDisplay.Size = New System.Drawing.Size(137, 49)
+        Me.btnClearDisplay.TabIndex = 17
+        Me.btnClearDisplay.Text = "CLEAR"
+        Me.btnClearDisplay.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Lavender
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1217, 480)
+        Me.Controls.Add(Me.btnClearDisplay)
+        Me.Controls.Add(Me.btnViewDisplay)
+        Me.Controls.Add(Me.RboxDisplay)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.lblSubhead)
         Me.Controls.Add(Me.lblAppname)
@@ -449,4 +485,7 @@ Partial Class Form1
     Friend WithEvents lblAppname As Label
     Friend WithEvents lblSubhead As Label
     Friend WithEvents btnSubmit As Button
+    Friend WithEvents RboxDisplay As RichTextBox
+    Friend WithEvents btnViewDisplay As Button
+    Friend WithEvents btnClearDisplay As Button
 End Class
