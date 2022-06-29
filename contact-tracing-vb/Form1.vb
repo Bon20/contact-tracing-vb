@@ -90,4 +90,17 @@ Public Class Form1
         End If
 
     End Sub
+
+    Private Sub btnViewDisplay_Click(sender As Object, e As EventArgs) Handles btnViewDisplay.Click
+        Dim ViewDisplay As OpenFileDialog = New OpenFileDialog()
+
+        If ViewDisplay.ShowDialog() = System.Windows.Forms.DialogResult.OK Then
+            If (ViewDisplay.OpenFile()) IsNot Nothing Then
+                Dim strfilename As String = ViewDisplay.FileName
+                Dim filetext As String = File.ReadAllText(strfilename)
+                RboxDisplay.Text = filetext
+            End If
+
+        End If
+    End Sub
 End Class
